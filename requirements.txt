@@ -1,8 +1,6 @@
-tensorflow
-fastapi
-uvicorn
-python-multipart
-pillow
-tensorflow-serving-api
-matplotlib
-numpy
+from fastapi import FastAPI, File, UploadFile
+import numpy as np
+import uvicorn
+from io import BytesIO
+import tensorflow as tf
+import PIL from Image
