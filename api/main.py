@@ -7,7 +7,7 @@ import PIL from Image
 
 app = FastAPI()
 
-MODEL = tf.keras.models.load_model("../Tomato_model")
+MODEL = tf.keras.models.load_model("../Tomato_model.h5")
 Class_Names = [
     'Tomato_Bacterial_spot',
     'Tomato_Early_blight',
